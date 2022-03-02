@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Roboto Serif', sans-serif;
+}
+
+.offset:before {
+    display: block;
+    content: "";
+    height: 6rem;
+}
+
+.navbar {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.2em;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px 0;
+    background-color: transparent;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-brand {
+    padding-left: 20px;
+    top: 0;
+    margin-bottom: 0;
+    overflow: hidden;
+}
+
+.navbar-light .nabar-nav .nav-link {
+    color: #fff;
+    padding-left: 20px;
+}
+
+.navbar-light .nabar-nav .nav-link.active,
+.navbar-light .nabar-nav .nav-link:hover {
+    color: rgb(225, 243, 252);
+}
+
+.heading-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    max-width: 100%;
+}
+
+.heading-content h5 {
+    font-size: 4em;
+    font-weight: 300;
+    color: #fff;
+    font-family: 'Poiret One', cursive;
+}
+
+.heading-content h1 {
+    font-size: 5em;
+    font-weight: bolder;
+    color: #fff;
+    font-family: 'Roboto Serif', sans-serif;
+}
+
+.heading-content p {
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: lighter;
+    color: #fff;
+    font-family: 'Poiret One', cursive;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+
+/* ABOUT */
+
+#about .post-heading h3, h2 {
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+}
+
+#about .row img {
+    border-radius: 50px;
+}
+
+#about .btn {
+    border: 2px solid transparent;
+    width: 30%;
+    padding: 5px 5px;
+    background: #000;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+
+#about .btn a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Poiret One', cursive;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+#about .btn:hover {
+    border: 2px solid rgb(225, 243, 252);
+    cursor: pointer;
+}
+
+#project .post-heading h3 {
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+}
+
+/* Carousel */
+
+#carouselExampleCaptions .carousel-item a {
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Roboto Serif', sans-serif;
+}
+
+#carouselExampleCaptions .carousel-item p {
+    padding-top: 10px;
+    font-family: 'Roboto Serif', sans-serif;
+}
+
+#carouselExampleCaptions .carousel-item .projectBtn {
+    position: absolute;
+    top: 1px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #000;
+    color: #fff;
+    font-size: 5px;
+    padding: 4px;
+    border: none;
+    border-radius: 1px;
+    text-align: center;
+    opacity: 0.7;
+}
+
+#carouselExampleCaptions .carousel-item .projectBtn a {
+    transition-duration: 0.4s;
+    text-decoration: none;
+    font-size: 2px;
+    font-weight: bold;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    text-align: center;
+    display: inline-block;
+}
+
+#carouselExampleCaptions .projectBtn:hover {
+    background-color: #000;
+    color: #000;
+    border: 1px solid #fff;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+@media screen and (max-width: 767px) {
+/*tablet*/
+    .navbar {
+    
+    letter-spacing: 0.2em;
+    padding: 5px 0;
+  
+    }
+
+    .heading-content h5 {
+    font-size: 3em;
+    }
+
+    .heading-content h1 {
+    font-size: 4em;
+    }
+
+    .heading-content p {
+    font-size: 0.9em;
+    }
+}
+
+@media screen and (max-width: 479px) {
+/*smartphone*/
+    .navbar {
+    
+    letter-spacing: 0.1em;
+    padding: 3px 0;
+  
+    }
+
+    .heading-content h5 {
+    font-size: 2em;
+    }
+
+    .heading-content h1 {
+    font-size: 3em;
+    }
+
+    .heading-content p {
+    font-size: 0.7em;
+    }
+}
+
+#contact .post-heading h3 {
+    font-size: 2em;
+}

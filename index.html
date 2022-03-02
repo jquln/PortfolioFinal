@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link 
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+    integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/style.css">
+    
+    <title>JM Software Developer</title>
+</head>
+
+<body data-spy="scroll" data-target="navbarResponsive">
+  <div id="home">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="/img/logo.png" alt="" width="73" height="70"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#project">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              
+            </ul>
+        </div>
+      </nav>
+
+      <div class="background">
+        <img src="/img/background (1).jpg" class="img-fluid">
+      </div>
+
+      <div class="heading-content text-center">
+        <h5>Bonjour, I'm</h5>
+        <h1>Jacquelyn Mitchell</h1>
+        <p>Growth | Efficiency | Vision</p>
+      </div>
+
+    </div>
+
+    <!-- About Start -->
+    <div id="about" class="offset container mt-3 pb-5">
+      <div class="post-heading text-center">
+        <h3 class="display-4 font-weight-bold">About Me</h3>
+        <hr class="w-50 mx-auto pb-0.5">
+        <br>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-12 pb-4">
+          <img src="/img/background (5).jpg" class="img-fluid object-fit">
+        </div>
+
+        <div class="col-lg-6 col-md-6 col-12">
+          <h2>Who I Am</h2>
+          <hr>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus impedit cum deleniti delectus. 
+            Ipsam deserunt quidem ratione harum cum. Sit, earum enim. Quasi atque fugit aliquid aspernatur 
+            officiis porro numquam?</p>
+
+            <button class="btn w-30">
+              <a href="#">Resume</a>
+            </button>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- About End -->
+
+    <!-- Projects Start -->
+    <div id="project" class="offset container mt-3 pb-5">
+      <div class="post-heading text-center">
+        <h3 class="display-4 font-weight-bold">My Work</h3>
+        <hr class="w-50 mx-auto pb-0.5">
+        <br>
+      </div>
+         
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="9000" data-bs-pause="false">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+  </div>
+  <div class="carousel-inner">
+
+    <div class="carousel-item active">
+
+      <video src="/video/PRDCRfriend.mp4" class="d-block w-100" alt="..." autoplay loop muted></video>
+      <div class="carousel-caption d-none d-md-block">
+        <button class="projectBtn">
+        <a href="https://prdcrfriend.azurewebsites.net"><h5>PRDCRfriend MVC</h5></a></button>
+        <p>An essential web application for music production using ASP.NET.</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <video src="/video/BusinessChallenges.mp4" class="d-block w-100" alt="..." autoplay loop muted></video>
+      <div class="carousel-caption d-none d-md-block">
+        <button class="projectBtn">
+        <a href="https://github.com/jquln/GoldBadge_Challenges/tree/master"><h5>Business Challenges</h5></a></button>
+        <p>C# Fundamentals, backend development & logic.</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <video src="/video/SunnySched.mp4" class="d-block w-100" alt="..." autoplay loop muted></video>
+      <div class="carousel-caption d-none d-md-block">
+        <button class="projectBtn">
+        <a href="https://github.com/RobMongin/SchedulerMVP"><h5>Sunny Scheduler MVP</h5></a></button>
+        <p>Group API project using Agile Methodologies.</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <video src="/video/JNMRecords.mp4" class="d-block w-100" alt="..." autoplay loop muted></video>
+      <div class="carousel-caption d-none d-md-block">
+        <button class="projectBtn">
+        <a href="https://github.com/jquln/StaticStore"><h5>JNM Records</h5></a></button>
+        <p>HTML/CSS Static Storefront</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <video src="/video/CSSCreature.mp4" class="d-block w-100" alt="..." autoplay loop muted></video>
+      <div class="carousel-caption d-none d-md-block">
+        <button class="projectBtn">
+        <a href="https://github.com/jquln/StaticStore"><h5>CSS Creature</h5></a></button>
+        <p>CSS practice in CodePen.</p>
+      </div>
+    </div>
+
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<br>
+    <!-- Projects End -->
+
+    <!-- Contact Start -->
+    <div id="contact" class="offset w-50 mx-auto mt-5 mb-5">
+      <div class="post-heading text-center">
+        <h3 class="display-4 font-weight-bold">Reach Out</h3>
+        <hr class="w-50 mx-auto pb-0.5">
+        <br>
+        
+        <form action="/action_page.php">
+          <div class="mb-3 mt-3">
+            <label for="email" class="form-label">Full Name:</label>
+            <input type="text" class="form-control" id="email" placeholder="First Last" name="email">
+          </div>
+          <div class="mb-3 mt-3">
+            <label for="email" class="form-label">Email:</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+          </div>
+          <div class="mb-3 mt-3">
+            <label for="comment">Send A Note:</label>
+              <textarea class="form-control" rows="5" id="comment" placeholder="(:" name="text"></textarea>
+          </div>
+          
+          <button type="submit" class="btn btn-dark">Send It</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Contact End -->
+
+    <!-- Footer Start -->
+
+    <div class="container-fluid">
+    <footer class="text-center text-white" style="background-color: #f1f1f1;">
+      <!-- Grid container -->
+      <div class="container pt-4">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Linkedin -->
+          <a
+            class="btn btn-link btn-floating btn-lg text-dark m-1"
+            href="https://www.linkedin.com/in/jacquelynmitchell"
+            role="button"
+            data-mdb-ripple-color="dark"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <!-- Github -->
+          <a
+            class="btn btn-link btn-floating btn-lg text-dark m-1"
+            href="https://github.com/jquln"
+            role="button"
+            data-mdb-ripple-color="dark"
+            ><i class="fab fa-github"></i
+          ></a>
+          <!-- Codepen -->
+          <a
+            class="btn btn-link btn-floating btn-lg text-dark m-1"
+            href="https://codepen.io/jquln"
+            role="button"
+            data-mdb-ripple-color="dark"
+            ><i class="fab fa-codepen"></i></a>
+        </section>
+
+      <footer class="text-center text-white" style="background-color: #f1f1f1;">
+    
+      <!-- Copyright -->
+      <div class="text-center text-dark p-3" style="background-color: #f1f1f11c;">
+        © 2020 Copyright:
+        <a class="text-dark" href="https://mdbootstrap.com/">Jacquelyn Mitchell</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer End -->
+    </div>
+
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</html>
