@@ -164,6 +164,26 @@ body {
     opacity: 0.9;
 }
 
+#contact h3 {
+    color: #fff;
+}
+
+#contact hr {
+    color: #fff;
+}
+
+
+.bg-img {
+    background-image: url(/img/background\ \(4\).jpg);
+    min-height: 380px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 2px;
+}
+
+
 @media screen and (max-width: 767px) {
 /*tablet*/
     .navbar {
